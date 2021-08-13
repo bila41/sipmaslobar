@@ -9,6 +9,11 @@
     </nav>
 
     <div class="row mb-4">
+    <!-- <div class="row mb-4"> -->
+                <!-- <div class="col">
+                    <a href="<?= base_url('administrator/addPetugas'); ?>" class="btn btn-info">Daftarkan Petugas Baru <i class="fa fa-plus"></i> </a>
+                </div> -->
+            <!-- </div> -->
         <div class="col-lg">
             <div class="card shadow">
                 <div class="card-header h4 text-dark text-center">

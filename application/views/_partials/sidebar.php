@@ -3,10 +3,10 @@
 
     <!-- Sidebar -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center text-white">
-        <div class="sidebar-brand-icon">
+        <!-- <div class="sidebar-brand-icon">
             <i class="fas fa-users"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">SIPMAS</div>
+        </div> -->
+        <div class="sidebar-brand-text mx-3">LOMBOK BARAT</div>
     </a>
 
     <!-- Divider -->
@@ -68,8 +68,8 @@
                 <li class="nav-item">
                 <?php endif; ?>
                 <a class="nav-link pb-0" href="<?= base_url('administrator/kategori'); ?>">
-                    <i class="fas fa-fw fa-tags"></i>
-                    <span>Kategori</span></a>
+                <i class="fas fa-briefcase"></i>
+                    <span>Petugas</span></a>
                 </li>
                 <?php if ($this->uri->segment(2) == "profile") : ?>
                     <li class="nav-item active">

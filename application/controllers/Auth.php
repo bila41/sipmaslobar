@@ -1,10 +1,6 @@
 <?php
 
-/**
- * BISMILLAHIRROHMANIRROHIM
- * Author   : alfianifk.my.id 
- * Nama App : sipmas (Sistem Pengaduan Masyarakat)
- */
+
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
@@ -15,6 +11,8 @@ class Auth extends CI_Controller
         parent::__construct();
         $this->load->model('Masyarakat_model');
         $this->load->model('Users_model');
+        $this->load->model('Petugas_model');
+
     }
 
     public function index()

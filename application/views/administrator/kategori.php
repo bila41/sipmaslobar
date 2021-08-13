@@ -3,7 +3,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb mb-4">
             <a class="breadcrumb-item text-info" href="<?= base_url('administrator'); ?>">Dashboard</a>
-            <li class="breadcrumb-item active">Kategori</li>
+            <li class="breadcrumb-item active">Petugas</li>
         </ol>
     </nav>
 
@@ -11,7 +11,7 @@
         <div class="col-lg-8">
             <div class="card shadow">
                 <div class="card-header h4 text-dark text-center">
-                    <i class="fa">Kategori</i>
+                    <i class="fa">PETUGAS</i>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -20,7 +20,7 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Nama Petugas</th>
-                                    <th>Kategori</th>
+                                    <th>Petugas Bagian</th>
                                 </tr>
                             </thead>
                             <tbody>

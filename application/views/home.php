@@ -21,7 +21,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand judul" href="#">Pengaduan Masyarakat</a>
+            <a class="navbar-brand judul" href="#">LOMBOK BARAT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,44 +37,57 @@
     <!-- JUMBOTRON -->
     <div class="container">
         <div class="row mt-5 text-center">
-            <div class="col">
+            <div class="col-md-12">
                 <h1 class="judul">Sistem Pengaduan Masyarakat</h1>
-                <h2 class="sub-judul">Kecamatan Cikalong</h2>
+                <!-- <h2 class="sub-judul">KABUPATEN LOMBOK BARAT</h2> -->
             </div>
         </div>
 
-        <div class="row mt-5">
-            <div class="col-md-6 mb-5">
+        <div class="row mt-5 text-center">
+            <div class="col-md-12 mb-5">
                 <h2 class="judul">Selamat datang! <i class="far fa-smile-beam"></i> </h2>
-                <h3 class="sub-judul">Masyarakat Kecamatan Cikalong</h3>
+                <h3 class="sub-judul">Masyarakat Kabupaten Lombok Barat</h3>
                 <h6 class="sub-judul">Adukan semua keluhan Anda disini, hal apapun akan kami tanggapi dengan baik</h6>
-                <a href="<?= base_url('auth/registrasi'); ?>" class="btn btn-dark sub-judul mt-5">Mulai Mendaftar</a>
-                <a href="<?= base_url('auth'); ?>" class="btn btn-info sub-judul ml-2 mt-5">Mulai Mengadu</a>
+                <a href="<?= base_url('auth/registrasi'); ?>" class="btn btn-dark sub-judul mt-2">Mulai Mendaftar</a>
+                <a href="<?= base_url('auth'); ?>" class="btn btn-info sub-judul ml-2 mt-2">Mulai Mengadu</a>
+                <br>
+                <br>
+                <br>
+                <br>
+              <h6 class="sub-judul text-center">Kami adalah sistem yang dapat membantu anda 
+                untuk menyampaikan keluhan Anda kepada Pemerintahan setempat, khususnya daerah Kabupaten Lombok Barat. 
+                Tanpa dipungut biaya apapun, alias Gratis!</h6>
+                
+               
             </div>
+            
             <div class="col-md-6">
-                <img src="<?= base_url('assets/img/hero.svg'); ?>" class="img-fluid ml-5" width="300px">
+                <!-- <img src="<?= base_url('assets/img/hero.svg'); ?>" class="img-fluid ml-5" width="300px"> -->
             </div>
         </div>
         <hr style="border: 1px solid #343A40">
     </div>
 
     <!-- MAIN CONTENT -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row justify-content-center mt-3">
             <div class="col-8 md-auto text-center">
                 <h3 class="judul">Tentang Kami</h3>
             </div>
-            <p class="col-5 md-auto text-center sub-judul"> Kami adalah sistem untuk melayani semua keluhan Anda, Khususnya daerah Kecamatan Cikalong dan sekitarnya. Dimulai dari kategori Infrastruktur, Keamanan, Kesehatan, Pendidikan dan Kesejahteraan. Tanpa dipungut biaya apapun, alias Gratis! </p>
+            <p class="col-5 md-auto text-center sub-judul"> Kami adalah sistem yang dapat membantu anda 
+                untuk menyampaikan keluhan Anda kepada Pemerintahan setempat, khususnya daerah Kabupaten Lombok Barat. 
+               
+                Tanpa dipungut biaya apapun, alias Gratis! </p>
 
         </div>
         <div class="row justify-content-center mt-3">
             <div class="col-8 md-auto text-center">
-                <img src="<?= base_url('assets/img/1.svg'); ?>" class="img-fluid mx-auto d-block" width="500px">
+                <img src="" class="img-fluid mx-auto d-block" width="500px">
             </div>
-        </div>
+        </div> -->
 
         <!-- KATEGORI -->
-        <section id="kategori">
+        <!-- <section id="kategori">
 
             <div class="row justify-content-center">
                 <div class="col-4 md-auto text-center">
@@ -82,14 +95,14 @@
                     <h3 class="judul">Kategori</h3>
                     <p class="sub-judul">Berikut adalah beberapa kategori yang bisa anda adukan disini</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col md-auto text-center">
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-7">
-                                <img src="<?= base_url('assets/img/kategori/kesejahteraan.svg'); ?>" class="card-img rounded">
+                                <img src="assets/img/kategori/kesejahteraan.svg" class="card-img rounded">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -98,12 +111,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col md-auto text-center">
+                </div> -->
+                <!-- <div class="col md-auto text-center">
                     <div class="card mb-3" style="max-width: 500px;">
                         <div class="row no-gutters">
                             <div class="col-md-7">
-                                <img src="<?= base_url('assets/img/kategori/1.svg'); ?>" class="card-img rounded">
+                                <img src="base_url('assets/img/kategori/1.svg')" class="card-img rounded">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -112,15 +125,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
+            <!-- </div> -->
 
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-7">
-                                <img src="<?= base_url('assets/img/kategori/kesehatan.svg'); ?>" class="card-img rounded">
+                                <img src="" class="card-img rounded">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -130,14 +143,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col md-auto text-center">
                     <div class="card mb-3">
                         <div class="row no-gutters">
                             <div class="col-md-7">
-                                <img src="<?= base_url('assets/img/kategori/keamanan.svg'); ?>" class="card-img rounded">
+                                <img src="base_url('assets/img/kategori/keamanan.svg')" class="card-img rounded">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -146,12 +159,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col md-auto text-center">
+                </div> -->
+                <!-- <div class="col md-auto text-center">
                     <div class="card mb-3" style="max-width: 500px;">
                         <div class="row no-gutters">
                             <div class="col-md-7">
-                                <img src="<?= base_url('assets/img/kategori/pendidikan.svg'); ?>" class="card-img rounded">
+                                <img src="base_url('assets/img/kategori/pendidikan.svg')" class="card-img rounded">
                             </div>
                             <div class="col-md-5">
                                 <div class="card-body">
@@ -162,25 +175,17 @@
                     </div>
                 </div>
             </div>
-    </div>
+    </div> -->
 
 
     </section>
 
 
     <!-- FOOTER -->
-    <footer class="sticky-footer mt-5">
-        <div class="container">
-            <div class="copyright text-center sub-judul">
-                <span>Dibuat dengan <i class="fas fa-heart"> AlfianiFk</i> </span>
-                <span>Copyright &copy; Sistem Pengaduan Masyarakat
-                    <?= date("Y"); ?></span>
-            </div>
-        </div>
-    </footer>
+   
     <!-- End of Footer -->
-
-    <!-- Optional JavaScript -->
+    <!-- base_url('assets/img/kategori/1.svg'); ?> -->
+       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>

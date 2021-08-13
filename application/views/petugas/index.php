@@ -77,9 +77,9 @@
                                                     <th scope="row">Nama</th>
                                                     <th scope="row">Kategori</th>
                                                     <th scope="row">Judul</th>
-                                                    <th scope="row">Isi</th>
+                                                    <!-- <th scope="row">Isi</th> -->
                                                     <th scope="row">Status</th>
-                                                    <th scope="row">Aksi</th>
+                                                    <th scope="row">Tanggapi</th>
 
                                                 </tr>
                                             </thead>
@@ -95,7 +95,7 @@
                                                         <td><?= $p['nama']; ?></td>
                                                         <td><?= $p['kategori']; ?></td>
                                                         <td><?= $p['judul_pengaduan']; ?></td>
-                                                        <td><?= $p['isi_pengaduan']; ?></td>
+                                                        <!-- <td><?= $p['isi_pengaduan']; ?></td> -->
                                                         <td>
                                                             <?php if ($p['status'] == "pending") : ?>
                                                                 <div class="badge badge-danger">
@@ -112,7 +112,7 @@
                                                             <?php endif; ?>
                                                         </td>
                                                         <td>
-                                                            <a href="<?= base_url('petugas/tanggapan/'); ?><?= $p['id_pengaduan']; ?>" class="btn btn-info"> <i class="fas fa-check"></i> </a>
+                                                            <a href="<?= base_url('petugas/tanggapan/'); ?><?= $p['id_pengaduan']; ?>" class="btn btn-info"> TANGGAPI </a>
                                                         </td>
                                                 </tr>
                                             <?php endforeach; ?>

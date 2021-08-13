@@ -18,8 +18,8 @@
                                     <div class="text-success float-right">
                                         <?php if ($selesai != 0) : ?>
                                             <?= count($selesai); ?>
-                                        <? else : ?>
-                                            <?= 0; ?>
+                                        <!-- <? else : ?>
+                                            <?= 0; ?> -->
                                         <?php endif; ?>
                                     </div>
                                 </div>
@@ -35,8 +35,8 @@
                                     <div class="text-warning float-right">
                                         <?php if ($proses != 0) : ?>
                                             <?= count($proses); ?>
-                                        <? else : ?>
-                                            <?= 0; ?>
+                                        <!-- <? else : ?>
+                                            <?= 0; ?> -->
                                         <?php endif; ?>
                                     </div>
                                 </div>
@@ -50,8 +50,8 @@
                                     <div class="text-danger float-right">
                                         <?php if ($pending != 0) : ?>
                                             <?= count($pending); ?>
-                                        <? else : ?>
-                                            <?= 0; ?>
+                                        <!-- <? else : ?>
+                                            <?= 0; ?> -->
                                         <?php endif; ?>
                                     </div>
                                 </div>

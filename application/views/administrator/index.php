@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="col-md-3 mt-2">
                             <a href="<?= base_url('administrator/pengaduan'); ?>" class="card card-link o-hidden shadow border-bottom-info">
-                                <div class="card-header bg-info text-white">Jumlah Pengaduan</div>
+                                <div class="card-header bg-info text-white">Pengaduan</div>
                                 <div class="card-body bg-white text-info h4">
                                     <i class="fas fa-paper-plane"> <?= count($pengaduan); ?> </i>
                                 </div>
@@ -20,16 +20,18 @@
                         </div>
                         <div class="col-md-3 mt-2">
                             <a href="<?= base_url('administrator/kategori'); ?>" class="card card-link o-hidden shadow border-bottom-warning">
-                                <div class="card-header bg-warning text-white">Jumlah Kategori</div>
+                                <div class="card-header bg-warning text-white">Daftar Petugas</div>
                                 <div class="card-body bg-white text-warning h4">
-                                    <i class="fas fa-tags"> <?= count($petugas); //hitung jumlah array  
+                                    <!-- <i class="fas fa-tags"> <?= count($petugas); //hitung jumlah array  
+                                                            ?></i> -->
+                                    <i class="fas fa-briefcase"> <?= count($petugas); //hitung jumlah array  
                                                             ?></i>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3 mt-2">
                             <a href="<?= base_url('administrator/selesai'); ?>" class="card-link card o-hidden shadow border-bottom-success">
-                                <div class="card-header bg-success text-white">Selesai</div>
+                                <div class="card-header bg-success text-white">Pengaduan Selesai</div>
                                 <div class="card-body bg-white text-success h4">
                                     <i class="fas fa-check-double"> <?= count($selesai); ?> </i>
                                 </div>
@@ -37,7 +39,7 @@
                         </div>
                         <div class="col-md-3 mt-2">
                             <a href="<?= base_url('administrator/proses'); ?>" class="card-link card o-hidden shadow border-bottom-danger">
-                                <div class="card-header bg-danger text-white">Proses</div>
+                                <div class="card-header bg-danger text-white">Pengaduan Proses</div>
                                 <div class="card-body bg-white text-danger h4">
                                     <i class="fas fa-exclamation-circle"> <?= count($proses); ?> </i>
                                 </div>

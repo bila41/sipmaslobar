@@ -1,11 +1,5 @@
 <?php
 
-/**
- * BISMILLAHIRROHMANIRROHIM
- * Author   : alfianifk.my.id 
- * Nama App : sipmas (Sistem Pengaduan Masyarakat)
- */
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Masyarakat extends CI_Controller
@@ -60,7 +54,7 @@ class Masyarakat extends CI_Controller
         }
     }
 
-    public function updateProfile()
+    public function update_profile()
     {
         if ($this->session->userdata('role') != 'masyarakat') {
             $this->load->view('error');
@@ -121,16 +115,27 @@ class Masyarakat extends CI_Controller
                 'numeric' => 'Nomor telepon tidak valid!'
             ]
         );
+        $validation->set_rules(
+            'alamat',
+            'alamat',
+            'required|trim',
+            [
+                'required' => "Alamat tidak boleh kosong!",
+               
+            ]
+        );
 
         if($validation->run())
         {
-            $masyarakat->updateProfile();
-            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Selamat! Profile anda berhasil diubah</div>');
+            $this->Masyarakat_model->update_profile();
+            // $masyarakat->update_profile();
+            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Profile anda berhasil diubah</div>');
             redirect('masyarakat/profile');
         } else {
 
             $data['users'] = $this->Users_model->dataUsers();
             $data['user'] = $this->Users_model->dataMasyarakatRow();
+            
     
     
             $data['title'] = "Pengaduan";

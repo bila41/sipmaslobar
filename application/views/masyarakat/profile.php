@@ -10,6 +10,9 @@
 
         <?= $this->session->flashdata('message'); ?>
             <div class="row">
+            <div class="row mb-4">
+               
+            </div>
                 <div class="card col-md-6" style="max-width: 400px;">
                     <div class="row no-gutters">
                         <div class="col-lg">
@@ -40,7 +43,14 @@
                                             <th scope="row">Telepon</th>
                                             <td><?= $user['telp']; ?></td>
                                         </tr>
+                                        <tr>
+                                            <th scope="row">Alamat</th>
+                                            <td><?= $user['alamat']; ?></td>
+                                        </tr>
                                     </table>
+                                    <div class="col">
+                    <a href="<?= base_url('masyarakat/update_profile'); ?>" class="btn btn-info">  <i class="fas fa-user-edit"></i> Edit Profile</a>
+                </div>
                                 </div>
                             </div>
                         </div>

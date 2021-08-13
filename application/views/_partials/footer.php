@@ -1,13 +1,5 @@
 <!-- Footer -->
-<footer class="sticky-footer bg-white">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Dibuat dengan <i class="fas fa-heart"> AlfianiFk</i> </span>
-            <span>Copyright &copy; Sistem Pengaduan Masyarakat
-                <?= date("Y"); ?></span>
-        </div>
-    </div>
-</footer>
+
 <!-- End of Footer -->
 
 </div>
@@ -111,7 +103,10 @@
     });
 </script>
 
+
 <script>
+        $('.custome-file-input').on('change',function(){let file_name= $(this).val().split('\\').pop(); $(this).next('.custom-file-label').addClass("selected").html(file_name)});
+
     $(window).on('load', function() {
         $("#disclaimer").modal('show');
     });

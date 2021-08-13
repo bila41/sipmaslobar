@@ -39,15 +39,7 @@
     <!-- End of Main Content -->
 
     <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-                <span>Dibuat dengan <i class="fas fa-heart"> AlfianiFk</i> </span>
-                <span>Copyright &copy; Sistem Pengaduan Masyarakat
-                    <?= date("Y"); ?></span>
-            </div>
-        </div>
-    </footer>
+    
     <!-- End of Footer -->
 
     </div>

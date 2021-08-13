@@ -1,11 +1,4 @@
 <?php
-
-/**
- * BISMILLAHIRROHMANIRROHIM
- * Author   : alfianifk.my.id 
- * Nama App : sipmas (Sistem Pengaduan Masyarakat)
- */
-
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Petugas extends CI_Controller
@@ -230,4 +223,5 @@ class Petugas extends CI_Controller
             $this->load->view('_partials/footer');
         }
     }
+    
 }

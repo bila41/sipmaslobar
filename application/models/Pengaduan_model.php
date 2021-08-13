@@ -1,10 +1,5 @@
 <?php
 
-/**
- * BISMILLAHIRROHMANIRROHIM
- * Author   : alfianifk.my.id 
- * Nama App : sipmas (Sistem Pengaduan Masyarakat)
- */
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
